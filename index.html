@@ -14,17 +14,23 @@
   <header id="site-header">
     <div class="container">
       <div class="row between middle">
-        <div class="head-logo-img"></div>
+        <div class="head-logo-img">
+
+        </div>
         <nav class="row">
           <ul class="nav-list row middle">
+
             <li class="nav-item"><a class="nav-link active-link" href="#">Home</a></li>
             <li class="nav-item hover-item"><a class="nav-link" href="#">Features</a></li>
             <li class="nav-item hover-item"><a class="nav-link" href="#">Elements</a></li>
             <li class="nav-item hover-item"><a class="nav-link" href="#">Membership</a></li>
             <li class="nav-item more-info">
+
               <p class="nav-link more-link row middle">More <i class='bx bx-chevron-down'></i></p> 
               <nav class="more-box-page">
+
                 <ul class="more-box-page-list">
+
                   <li class="box-page-items"><a class="more-link-page" href="#">Tags</a></li>
                   <li class="box-page-items"><a class="more-link-page" href="#">Authors</a></li>
                   <li class="box-page-items"><a class="more-link-page" href="#">Monthly archive</a></li>
@@ -37,48 +43,329 @@
             </li>
             <li class="nav-item hover-item"><a class="nav-link" href="#">Sign in</a></li>
           </ul>
+
           <button class="sign-up-btn">Sign up</button>
-          <button class="btn search-btn"><i class='bx bx-search'></i></button>
-          <button class="btn moon-btn" id="darkBtn"><i class='bx bx-moon' ></i></button>
+          <button class="btn search-btn" id="searchBtn"><i class='bx bx-search'></i></button>
+          <div class="hideVersion" id="hideContent">
+            <div class="modal-wrapper">
+              <input class="search-inp" type="text" name="search" placeholder="Type to search">
+              <p class="notice-text">Press ESC to close.</p>
+  
+              <button class="close-Btn" id="closeBtn">X</button>
+  
+              <p class="popular-tags">See posts by Popular tags</p>
+              <ul class="row wrap modal-list">
+                <li class="modal-item"><a class="modal-link inspiration-link" href="#">Inspiration</a></li>
+                <li class="modal-item"><a class="modal-link" href="#">Lifestyle</a></li>
+                <li class="modal-item"><a class="modal-link" href="#">Nature</a></li>
+                <li class="modal-item"><a class="modal-link" href="#">Health</a></li>
+                <li class="modal-item"><a class="modal-link travel-link" href="#">Travel</a></li>
+                <li class="modal-item"><a class="modal-link modal-food-link" href="#">Food</a></li>
+                <li class="modal-item"><a class="modal-link modal-tech-link" href="#">Technology</a></li>
+              </ul>
+
+            </div>
+          </div>
+          <button class="btn moon-btn" id="darkBtn"></button>
+
         </nav>
       </div>
     </div>
 
   </header>
 
-  <section id="hero">
-    <div class="container">
-      <div class="row middle hero-inner">
-        <div class="hero-info-part">
-          <h1 class="hero-title">Hay, I am Arun</h1>
-          <h2 class="hero-sub-title">An architect, software developer, YouTuber and <br> keynote speaker. On this site I write about my learning <br> and experience.</h2>
-          <form class="hero-form" action="https://echo.htmlacamedy.ru">
-            <input class="hero-input" type="email" name="email" placeholder="Your email address" required>
-            <button class="subscribe-btn">Subscribe</button>
-          </form>
-          <div class="row middle">
-             <p class="follow-text">Follow:</p>
-             <ul class="row social-list">
-               <li class="social-items"><a href="#" target="_blank"><i class='bx icon-color bxl-twitter'></i></a></li>
-               <li class="social-items"><a href="#" target="_blank"><i class='bx icon-color bxl-facebook' ></i></a></li>
-               <li class="social-items"><a href="#" target="_blank"><i class='bx icon-color bxl-instagram' ></i></a></li>
-               <li class="social-items"><a href="#" target="_blank"><i class='bx icon-color bxl-github' ></i></a></li>
-             </ul>
-          </div>
-        </div>
 
-        <div class="main-box">
-          <div class="second-box">
+  <main>
+
+    <section id="hero">
+      <div class="container">
+        <div class="row middle hero-inner">
+          <div class="hero-info-part">
+            <h1 class="hero-title">Hay, I am Arun</h1>
+            <h2 class="hero-sub-title">An architect, software developer, YouTuber and <br> keynote speaker. On this site I write about my learning <br> and experience.</h2>
+            <form class="hero-form" action="https://echo.htmlacamedy.ru">
+              <input class="hero-input" type="email" name="email" placeholder="Your email address" required>
+              <button class="subscribe-btn">Subscribe</button>
+            </form>
+            <div class="row middle">
+               <p class="follow-text">Follow:</p>
+               <ul class="row social-list">
+                 <li class="social-items"><a href="#" target="_blank"><i class='bx icon-color bxl-twitter'></i></a></li>
+                 <li class="social-items"><a href="#" target="_blank"><i class='bx icon-color bxl-facebook' ></i></a></li>
+                 <li class="social-items"><a href="#" target="_blank"><i class='bx icon-color bxl-instagram' ></i></a></li>
+                 <li class="social-items"><a href="#" target="_blank"><i class='bx icon-color bxl-github' ></i></a></li>
+               </ul>
+           </div>
+          </div>
+  
+          <div class="main-box">
             <img class="hero-img" src="images/hero-img.jpg" alt="hero" width="400" height="400">
+            <div class="second-box">
+            <div class="first-box-inner"></div>    
+              <div class="second-box-inner"></div>
+          </div>
+          <div class="third-box">
+              <div class="third-box-inner high-index"></div>
+          </div>
+          <div class="fourth-box">
+              <div class="fourth-box-inner"></div>
+          </div>
+          <div class="fifth-box">
+            <div class="fifth-box-inner"></div>
+          </div>
+         </div>
+        </div>
+      </div>
+      
+    </section>
+
+    <section id="features">
+      <div class="container">
+        <div class="features-inner">
+          <h4 class="feature-title">Featured posts</h4>
+          <ul class="feature-list">
+
+            <li class="row feature-item">
+              <img class="feature-img" src="images/girl.jpg" alt="girl" width="240" height="240">
+              <div>
+                <div class="row">
+                 <button class="feature-btn">Lifestyle</button>
+                  <i class='bx bxs-star' ></i>
+                </div>  
+                <h4 class="feature-sub-title">Self-observation is the first step of inner unfolding</h4>
+                <p class="feature-text">Almost instantly the whole truth of the transaction seemed to rush upon her mind, <br> and her wrath was inconceivably violent. She asked me a thousand questions in a...</p>
+                <p class="feature-date">May 02, 2021 . 3 min read . Public</p>
+              </div>
+            </li>
+
+            <li class="row feature-item">
+              <img class="feature-img" src="images/second-girl.jpg" alt="second-girl" width="240" height="240">
+              <div>
+                <div class="row">
+                 <button class="feature-btn">Health</button>
+                  <i class='bx bxs-star' ></i>
+                </div>  
+                <h4 class="feature-sub-title">The mind and body are not separate. what affects one, affects the other</h4>
+                <p class="feature-text">his recital put the Captain into an ecstasy; he went from the lady to the gentleman, <br> and from the gentleman to the lady, to enjoy alternately the sight of their distress...</p>
+                <p class="feature-date">Mar 28, 2021 . 3 min read .  Paid</p>
+              </div>
+            </li>
+
+            <li>
+              <h4 class="feature-title latest-post">Latest posts</h4>
+            </li>
+
+            <li class="row feature-item">
+              <img class="feature-img" src="images/gift.jpg" alt="gift" width="240" height="240">
+              <div>
+                <div class="row">
+                 <button class="feature-btn">Nature</button>
+                </div>  
+                <h4 class="feature-sub-title">Autumn is a second spring when every leaf is a flower</h4>
+                <p class="feature-text">She then expatiated very warmly upon the advantages I should reap from her plan; <br> talked in a high style of my future grandeur; assured me how heartily I should...</p>
+                <p class="feature-date">May 02, 2021 . 4 min read . Public</p>
+              </div>
+            </li>
+
+            <li class="row feature-item">
+              <img class="feature-img" src="images/window.jpg" alt="window" width="240" height="240">
+              <div>
+                <div class="row">
+                 <button class="feature-btn travel-btn">Travel</button>
+                </div>  
+                <h4 class="feature-sub-title">Never let your memories be greater than your dreams</h4>
+                <p class="feature-text">Before long the searchlight discovered some distance away a schooner with all sails <br> set, apparently the same vessel which had been noticed earlier in the evening. The...</p>
+                <p class="feature-date">May 02, 2021 . 4 min read . Members</p>
+              </div>
+            </li>
+
+            <li class="row between feature-item subscribe-item">
+
+              <div>
+                <h5 class="subscribe-title">Subscribe to premium <br> membership plan</h5>
+                <p class="subscribe-text">Get access to all premium content and enjoy reading <br> without any distraction</p>
+                <button class="row middle compare-btn">Compare plan <i class='bx bx-right-arrow-alt'></i></button>
+              </div>
+              <div class="yearly-mode">
+                <div class="yearly-inner">
+                  <h5 class="yearly-title">Yearly</h5>
+                  <p class="price"><span class="dollar-icon">$</span> 50</p>
+                  <p class="save-text">Save 17%</p>
+                  <button class="yearly-btn">Subscribe Now</button>
+                </div>
+              </div>
+              <div class="yearly-mode">
+                <div class="yearly-inner">
+                  <h5 class="yearly-title">Monthly</h5>
+                  <p class="price second-dollar"><span class="dollar-icon">$</span> 5</p>
+                  <button class="yearly-btn">Subscribe Now</button>
+                </div>
+              </div>
+
+            </li>
+
+            <li class="row feature-item">
+              <img class="feature-img" src="images/fruit.jpg" alt="fruit" width="240" height="240">
+              <div>
+                <div class="row">
+                 <button class="feature-btn food-btn">Food</button>
+                </div>  
+                <h4 class="feature-sub-title">Dramatically improve your cooking using <br> just your imagination</h4>
+                <p class="feature-text">You cannot too assiduously attend to Madame Duval herself; but I would wish you to <br> mix as little as possible with her associates, who are not likely to be among those...</p>
+                <p class="feature-date">May 02, 2021 . 4 min read . Paid</p>
+              </div>
+            </li>
+
+            <li class="row feature-item">
+              <img class="feature-img" src="images/girl.jpg" alt="girl" width="240" height="240">
+              <div>
+                <div class="row">
+                 <button class="feature-btn">Lifestyle</button>
+                 <i class='bx bxs-star' ></i>
+                </div>  
+                <h4 class="feature-sub-title">Self-observation is the first step of inner <br> unfolding</h4>
+                <p class="feature-text">Almost instantly the whole truth of the transaction seemed to rush upon her mind, <br> and her wrath was inconceivably violent. She asked me a thousand questions in a...</p>
+                <p class="feature-date">May 02, 2021 . 3 min read . Public</p>
+              </div>
+            </li>
+
+            <li class="row feature-item">
+              <img class="feature-img" src="images/lamp.jpg" alt="lamp" width="240" height="240">
+              <div>
+                <div class="row">
+                 <button class="feature-btn inspiration-btn">Inspiration</button>
+                </div>  
+                <h4 class="feature-sub-title">It is during our darkest moments that we <br> must focus to see the light</h4>
+                <p class="feature-text">Mina took a growing interest in everything and I was rejoiced to see that the exigency <br> of affairs was helping her to forget for a time the terrible experience of the night...</p>
+                <p class="feature-date">Apr 24, 2021 . 3 min read . Public</p>
+              </div>
+            </li>
+
+            <li class="row feature-item">
+              <img class="feature-img" src="images/camera.jpg" alt="camera" width="240" height="240">
+              <div>
+                <div class="row">
+                 <button class="feature-btn techno-btn">Technology</button>
+                </div>  
+                <h4 class="feature-sub-title">Bangladesh has developed plastic <br> alternative using jute</h4>
+                <p class="feature-text">Dr. Johnson, as usual, spoke contemptuously of Colley Cibber. 'It is wonderful that a <br> man, who for forty years had lived with the great and the witty, should have acquire...</p>
+                <p class="feature-date">Apr 18, 2021 . 3 min read . Members</p>
+              </div>
+            </li>
+
+            <li class="row feature-item">
+              <img class="feature-img" src="images/salad-food.jpg" alt="salad-food" width="240" height="240">
+              <div>
+                <div class="row">
+                 <button class="feature-btn food-btn">Food</button>
+                </div>  
+                <h4 class="feature-sub-title">I do not stick to rules when cooking. I rely on my imagination</h4>
+                <p class="feature-text">I walked down to the station with them, and then wandered through the streets of <br> the little town, finally returning to the hotel, where I lay upon the sofa and tried to...</p>
+                <p class="feature-date">April 12, 2021 . 4 min read . Public</p>
+              </div>
+            </li>
+
+            <li class="row feature-item">
+              <img class="feature-img" src="images/second-girl.jpg" alt="second-girl" width="240" height="240">
+              <div>
+                <div class="row">
+                 <button class="feature-btn">Health</button>
+                 <i class='bx bxs-star' ></i>
+                </div>  
+                <h4 class="feature-sub-title">The mind and body are not separate. what affects one, affects the other</h4>
+                <p class="feature-text">his recital put the Captain into an ecstasy; he went from the lady to the gentleman, <br> and from the gentleman to the lady, to enjoy alternately the sight of their distress...</p>
+                <p class="feature-date">May 28, 2021 . 3 min read . Paid</p>
+              </div>
+            </li>
+          </ul>
+          
+          <div class="show-btn-wrap">
+            <button class="show-btn">Show more posts</button>
           </div>
         </div>
+      </div>
+    </section>
 
+    <section id="newsletter">
+
+      <div class="container">
+        <div class="news-part">
+          <img class="messege-img" src="images/messege.png" alt="messege" width="140" height="84">
+          <h5 class="messege-title">Subscribe to newsletter</h5>
+          <p class="messege-text">Stay up to date! Get all the latest posts delivered straight to your inbox.</p>
+          <form class="input-wrapper row middle" action="https://echo.htmlacademy.ru">
+            <input class="form-input" type="text" name="name" placeholder="Your name" required>
+            <input class="form-input" type="email" name="email" placeholder="Your email address" required>
+            <button class="form-btn" type="submit">Subscribe</button>
+          </form>
+        </div>
+      </div>
+
+    </section>
+
+  </main>
+
+  <footer id="site-footer">
+    <div class="container">
+      <a class="foot-logo" href="#"><div class="foot-logo"></div></a>
+      <div class="row footer-inner">
+        <p class="foot-text">An architect, software developer, YouTuber <br> and keynote speaker. On this site I write <br> about my learning and experience.</p>
+
+        <div class="footer-wrapper row">
+          <div>
+            <h5 class="foot-title">Features</h5>
+            <nav>
+              <ul class="foot-list">
+                <li class="foot-item"><a class="foot-link" href="#">Elements</a></li>
+                <li class="foot-item"><a class="foot-link" href="#">Tags</a></li>
+                <li class="foot-item"><a class="foot-link" href="#">Authors</a></li>
+                <li class="foot-item"><a class="foot-link" href="#">404 page</a></li>
+              </ul>
+            </nav>
+          </div>
+  
+          <div>
+            <h5 class="foot-title">Members</h5>
+            <nav>
+              <ul class="foot-list">
+                <li class="foot-item"><a class="foot-link" href="#">Membership</a></li>
+                <li class="foot-item"><a class="foot-link" href="#">Sign in</a></li>
+                <li class="foot-item"><a class="foot-link" href="#">Sign up</a></li>
+                <li class="foot-item"><a class="foot-link" href="#">Account</a></li>
+              </ul>
+            </nav>
+          </div>
+  
+          <div>
+            <h5 class="foot-title">About</h5>
+            <nav>
+              <ul class="foot-list">
+                <li class="foot-item"><a class="foot-link" href="#">Tag page</a></li>
+                <li class="foot-item"><a class="foot-link" href="#">Author page</a></li>
+                <li class="foot-item"><a class="foot-link" href="#">Contact</a></li>
+                <li class="foot-item"><a class="foot-link" href="#">Privacy</a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
+
+      <div class="row middle between last-foor-part">
+        <div class="row">
+          <p class="follow-text">Follow:</p>
+          <ul class="row social-list">
+            <li class="social-items"><a href="#" target="_blank"><i class='bx media-links icon-color bxl-twitter'></i></a></li>
+            <li class="social-items"><a href="#" target="_blank"><i class='bx media-links icon-color bxl-facebook' ></i></a></li>
+            <li class="social-items"><a href="#" target="_blank"><i class='bx media-links icon-color bxl-instagram' ></i></a></li>
+            <li class="social-items"><a href="#" target="_blank"><i class='bx media-links icon-color bxl-github' ></i></a></li>
+          </ul>
+        </div>
+        <p class="copyright-text">© 2022 Arun Roy - All right Reserved. Published with Ghost</p>
       </div>
     </div>
 
+  </footer>
 
-
-  </section>
 
  
 
