@@ -3,15 +3,84 @@
 
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Envato</title>
+  <link href='https://unpkg.com/boxicons@2.1.1/css/boxicons.min.css' rel='stylesheet'>
   <link rel="stylesheet" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
   <link rel="stylesheet" href="css/col.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
+  <header id="site-header">
+    <div class="container">
+      <div class="row between middle">
+        <div class="head-logo-img"></div>
+        <nav class="row">
+          <ul class="nav-list row middle">
+            <li class="nav-item"><a class="nav-link active-link" href="#">Home</a></li>
+            <li class="nav-item hover-item"><a class="nav-link" href="#">Features</a></li>
+            <li class="nav-item hover-item"><a class="nav-link" href="#">Elements</a></li>
+            <li class="nav-item hover-item"><a class="nav-link" href="#">Membership</a></li>
+            <li class="nav-item more-info">
+              <p class="nav-link more-link row middle">More <i class='bx bx-chevron-down'></i></p> 
+              <nav class="more-box-page">
+                <ul class="more-box-page-list">
+                  <li class="box-page-items"><a class="more-link-page" href="#">Tags</a></li>
+                  <li class="box-page-items"><a class="more-link-page" href="#">Authors</a></li>
+                  <li class="box-page-items"><a class="more-link-page" href="#">Monthly archive</a></li>
+                  <li class="box-page-items"><a class="more-link-page" href="#">Yearly archive</a></li>
+                  <li class="box-page-items"><a class="more-link-page" href="#">Contact</a></li>
+                  <li class="box-page-items"><a class="more-link-page" href="#">Get theme</a></li>
+
+                </ul>
+              </nav>
+            </li>
+            <li class="nav-item hover-item"><a class="nav-link" href="#">Sign in</a></li>
+          </ul>
+          <button class="sign-up-btn">Sign up</button>
+          <button class="btn search-btn"><i class='bx bx-search'></i></button>
+          <button class="btn moon-btn" id="darkBtn"><i class='bx bx-moon' ></i></button>
+        </nav>
+      </div>
+    </div>
+
+  </header>
+
+  <section id="hero">
+    <div class="container">
+      <div class="row middle hero-inner">
+        <div class="hero-info-part">
+          <h1 class="hero-title">Hay, I am Arun</h1>
+          <h2 class="hero-sub-title">An architect, software developer, YouTuber and <br> keynote speaker. On this site I write about my learning <br> and experience.</h2>
+          <form class="hero-form" action="https://echo.htmlacamedy.ru">
+            <input class="hero-input" type="email" name="email" placeholder="Your email address" required>
+            <button class="subscribe-btn">Subscribe</button>
+          </form>
+          <div class="row middle">
+             <p class="follow-text">Follow:</p>
+             <ul class="row social-list">
+               <li class="social-items"><a href="#" target="_blank"><i class='bx icon-color bxl-twitter'></i></a></li>
+               <li class="social-items"><a href="#" target="_blank"><i class='bx icon-color bxl-facebook' ></i></a></li>
+               <li class="social-items"><a href="#" target="_blank"><i class='bx icon-color bxl-instagram' ></i></a></li>
+               <li class="social-items"><a href="#" target="_blank"><i class='bx icon-color bxl-github' ></i></a></li>
+             </ul>
+          </div>
+        </div>
+
+        <div class="main-box">
+          <div class="second-box">
+            <img class="hero-img" src="images/hero-img.jpg" alt="hero" width="400" height="400">
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
+
+  </section>
+
+ 
 
   <script src="js/main.js"></script>
 </body>
