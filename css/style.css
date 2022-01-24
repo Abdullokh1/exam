@@ -58,7 +58,6 @@ html{
   width: 126px;
   height: 40px;
   background-size: cover;
-
 }
 .nav-list{
   list-style: none;
@@ -448,7 +447,7 @@ html{
   top: -37%;
   left: -37%;
   border-radius: 100%;
-  border: 3px dashed var(--line-color);
+  border: 1px dashed var(--line-color);
   animation: third 350s linear infinite;
 }
 
@@ -477,9 +476,9 @@ html{
   top: -37%;
   left: -37%;
   border-radius: 100%;
-  border: 3px dashed var(--line-color);
+  border: 1px dashed var(--line-color);
   animation: fourth 350s linear infinite;
-  z-index: -2;
+  z-index: -10;
 }
 @keyframes fourth{
   0%{
@@ -493,10 +492,10 @@ html{
   position: relative;
   width: 40px;
   height: 40px;
-  background-color: #ffab73;
   left: 30%;
   border-radius: 100%;
   filter: blur(4px);
+  z-index: 10;
 }
 .fifth-box{
   position: absolute;
@@ -505,9 +504,8 @@ html{
   top: -37%;
   left: -37%;
   border-radius: 100%;
-  border: 3px dashed var(--line-color);
+  border: 1px dashed var(--line-color);
   animation: fourth 350s linear infinite;
-  z-index: -1;
 }
 @keyframes fourth{
   0%{
@@ -524,7 +522,8 @@ html{
   background-color: #80abff;
   right: -65%;
   border-radius: 100%;
-  filter: blur(2px);
+  filter: blur(4px);
+  z-index: -11;
 }
 .feature-title{
   font-size: 24px;
